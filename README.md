@@ -1,4 +1,6 @@
-Sure, I'll provide you with the complete README file content, including explanations for all the functions and an image zone. Since the content is quite long, I'll split it into two messages.
+# Automatons
+
+![Example Image](images/dfa1.png)
 
 Message 1:
 
@@ -7,7 +9,6 @@ Message 1:
 
 This project is an implementation of various operations and algorithms related to automata theory in the C programming language. It allows you to load automata from text files, perform operations such as union, intersection, complementation, and minimization, and generate visualizations of the automata using the DOT language and GraphViz.
 
-![Example Image](images/dfa1.png)
 
 ## Table of Contents
 
@@ -219,17 +220,29 @@ Here are some examples of how the program works, along with corresponding images
 
 ![Example Automaton](images/big.png)
 
-2. Generating the DOT file and displaying the PNG image:
+# 2. Generating the DOT file and displaying the PNG image:
 
-![Example Automaton PNG](images/example1_output.png)
+![Example Automaton PNG](images/dfa1.png)
 
-3. Computing the union of two automata:
+# 3. Computing the union of two automata:
 
-![Union Automaton](images/union_automaton.png)
+![Union Automaton](images/union.png)
 
-4. Minimizing the automaton:
 
-![Minimized Automaton](images/minimized_automaton.png)
+# 4. Minimizing the automaton:
+   # Input:
+![Minimized Automaton](images/min1.png)
+
+   # Result:
+![Minimized Automaton](images/min2.png)
+
+
+#  9. Deleting epsilon transitions
+   # Input:
+![Minimized Automaton](images/epsilons1.png)
+   # Result:
+![Minimized Automaton](images/epsilons2.png)
+
 
 ## Contributing
 
