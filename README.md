@@ -243,6 +243,11 @@ Here are some examples of how the program works, along with corresponding images
    # Result:
 ![Minimized Automaton](images/epsilons2.png)
 
+#  10. NFA to DFA
+   # Input:
+![Minimized Automaton](images/dfa1.png)
+   # Result:
+![Minimized Automaton](images/dfaf.png)
 
 ## Contributing
 
